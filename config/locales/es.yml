@@ -22,6 +22,8 @@ es:
               blank: 'no puede estar vacío'
   common:
     confirm: '¿Estás seguro?'
+    back: 'Volver'
+    not_logged_in: 'Tienes que hacer login o crearte una cuenta'
   shared:
     header:
       add: 'Añadir producto'
