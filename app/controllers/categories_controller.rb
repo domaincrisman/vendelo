@@ -1,6 +1,7 @@
 class CategoriesController < ApplicationController
-
+  before_action :authorize!
   def index
+    authorize!
     @categories = Category.all.order(name: :asc)
   end
 
