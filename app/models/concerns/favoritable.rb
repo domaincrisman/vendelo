@@ -16,6 +16,5 @@ module Favoritable
     def favorite
       favorites.find_by(user: Current.user)
     end
-
   end
 end
