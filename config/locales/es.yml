@@ -25,7 +25,7 @@ es:
     not_authorized: 'No tienes permisos para esta acción'
     not_found: 'No se ha encontrado!'
   shared:
-    header:
+    items:
       add: 'Añadir producto'
       login: 'Acceso'
       register: 'Registro'
@@ -91,3 +91,7 @@ es:
   favorites:
     index:
       title: 'Mis favoritos'
+  user_mailer:
+    welcome: 
+      subject: 'Bienvenid@ a Vendelo!'
+      welcome_message: 'Hey %{username}, bienvenid@ a Vendelo. Esperemos que vendas un montón!'
