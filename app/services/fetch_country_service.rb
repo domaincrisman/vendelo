@@ -14,8 +14,7 @@ class FetchCountryService
     if status == 'success'
       parsed_response['countryCode'].downcase
     end
-  rescue 
-    # Handle the error or log it
+  rescue
     nil
   end
 end
